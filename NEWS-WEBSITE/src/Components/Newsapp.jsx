@@ -6,7 +6,7 @@
   
 //     const [search,setSearch] = useState("india");
 //     const [newsData,setNewsData] = useState(null);
-//     const API_KEY ="caecb92fda3446d1a895dce3aaacb3ca";
+//     const API_KEY ="xxxxxxxxxxxxx";
 //     const getData =async() =>{
 //         const response = await fetch(`https://newsapi.org/v2/everything?q=${search}&apiKey=${API_KEY}`);
 //         const jsonData = await response.json();
@@ -63,7 +63,7 @@ const Newsapp = () => {
   const [search, setSearch] = useState("india");
   const [newsData, setNewsData] = useState([]);
 
-  const API_KEY = "caecb92fda3446d1a895dce3aaacb3ca";
+  const API_KEY = "xxxxxxxxxxxxxxxxx";
 
   const getData = async (query = search) => {
     const response = await fetch(
